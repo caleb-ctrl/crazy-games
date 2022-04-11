@@ -5,9 +5,13 @@ function iframe(_in) {
 }
 
 function crazyGames(url) {
-  if (url == games.cpa.name) {
-    iframe(games.cpa.html);
+  if (url == game.cpa.name) {
+    iframe(game.cpa.html);
+  } else if (url == game.cpa3.name) {
+    iframe(game.cpa3.html);
+  } else {
+    print("error " + url);
   }
 }
 
-crazyGames("Crazy Pixel Apocalypse");
+crazyGames(game.cpa.name);
