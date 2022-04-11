@@ -17,4 +17,4 @@
 - use https://zakghost354313.github.io/crazy_games/pga7.html to get to 7(not done)
 
 # just for Carl: 
-- https://zakghost354313.github.io/doom (not done)
+- https://github.com/ZakGhost354313/doom
