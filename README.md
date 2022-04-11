@@ -6,7 +6,7 @@
 - use https://zakghost354313.github.io/crazy_games/cpa.html to get to 1
 - use https://github.com/ZakGhost354313/crazy_gamescpa2.html to get to 2(not done)
 - use https://zakghost354313.github.io/crazy_games/cpa3.html to get to 3
-- 
+
 ### Pixel Gun Apocalypse series
 - use https://zakghost354313.github.io/crazy_games/pga.html to get to 1(not done)
 - use https://zakghost354313.github.io/crazy_games/pga2.html to get to 2(not done)
@@ -16,6 +16,5 @@
 - use https://zakghost354313.github.io/crazy_games/pga6.html to get to 6(not done)
 - use https://zakghost354313.github.io/crazy_games/pga7.html to get to 7(not done)
 
-#just for Carl: 
+# just for Carl: 
 - https://zakghost354313.github.io/doom (not done)
-- 
