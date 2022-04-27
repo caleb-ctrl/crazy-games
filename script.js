@@ -12,7 +12,7 @@ const game = {
   }
 }
 
-const _game1 = json(game)
+const _game1 = JSON.parse(game)
 
 function iframe(_in) {
   const page = document.getElementByid("game-div");
