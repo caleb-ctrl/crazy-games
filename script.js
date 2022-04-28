@@ -1,4 +1,4 @@
-//const _game = require('./games.json')
+const _game = require('./games.json')
 const game = {
   "cpa": {
     "name": "Crazy Pixel Apocalypse",
@@ -20,13 +20,13 @@ function iframe(_in) {
 }
 
 function crazyGames(url) {
-  if (url == _game1.cpa.name) {
-    iframe(_game1.cpa.html);
-  } else if (url == _game1.cpa3.name) {
-    iframe(_game1.cpa3.html);
+  if (url == _game.cpa.name) {
+    iframe(_game.cpa.html);
+  } else if (url == _game.cpa3.name) {
+    iframe(_game.cpa3.html);
   } else {
     print("error " + url);
   }
 }
 
-crazyGames(_game1.cpa.name);
+crazyGames(_game.cpa3.name);
