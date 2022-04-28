@@ -2,6 +2,10 @@
   This is a simple page to use games on Crazy games, with faster fps. it is faster simply because it has no extra things on the page, it is just the game.
 
 ## ease of use urls
+
+### Random stuff
+- use https://zakghost354313.github.io/crazy_games/uno.html to get to the Crazy Games UNO Online game.
+
 ### Crazy Pixel Apocalypse series
 - use https://zakghost354313.github.io/crazy_games/cpa.html to get to 1
 - use https://github.com/ZakGhost354313/crazy_gamescpa2.html to get to 2(not done)
