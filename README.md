@@ -7,9 +7,9 @@
 - use https://zakghost354313.github.io/crazy_games/uno.html to get to the Crazy Games UNO Online game.
 
 ### Crazy Pixel Apocalypse series
-- use https://zakghost354313.github.io/crazy_games/cpa.html to get to 1
-- use https://github.com/ZakGhost354313/crazy_gamescpa2.html to get to 2(not done)
-- use https://zakghost354313.github.io/crazy_games/cpa3.html to get to 3
+- use [https://zakghost354313.github.io/crazy_games/cpa.html](https://tinyurl.com/cpa13543) to get to 1
+- use [https://github.com/ZakGhost354313/crazy_gamescpa2.html](https://tinyurl.com/cpa23543) to get to 2
+- use [https://zakghost354313.github.io/crazy_games/cpa3.html](https://tinyurl.com/cpa33543) to get to 3
 
 ### Pixel Gun Apocalypse series
 - use https://zakghost354313.github.io/crazy_games/pga.html to get to 1(not done)
