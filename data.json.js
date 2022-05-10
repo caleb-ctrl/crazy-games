@@ -12,4 +12,4 @@ const game = {
   }
 }
 
-export game;
+//export game;
