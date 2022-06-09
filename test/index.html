@@ -1,0 +1,127 @@
+
+<!DOCTYPE html><html lang="en"><head><title>Crazy Pixel Apocalypse Game Files - Crazy Games</title><link href="https://gameframe.crazygames.com/crazygames-gameframe-v1.bundle.js" rel="preload" as="script" /><link href="https://www.crazygames.com/game/crazy-pixel-apocalypse" rel="canonical" /><meta charset="UTF-8" /><meta name="robots" content="noindex, follow" /><meta name="description" content="The game files for Crazy Pixel Apocalypse, a free browser game on CrazyGames.com" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Accept-CH" content="DPR" /><meta name="viewport" content="width=device-width, maximum-scale=1.0, initial-scale=1.0, user-scalable=no, minimal-ui" /><style id="pacman-styles">/* background */
+body {
+  background-image: linear-gradient(290deg, #3b2b73 55%, #6f2f93, #6f2f93);
+  background-position: center;
+  text-align: center;
+} 
+/* for positioning of pacman loader */
+body, html { height: 100%; }
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+@keyframes rotate_preloadpacman_half_up {
+  0% {
+    transform: rotate(270deg); }
+  50% {
+    transform: rotate(360deg); }
+  100% {
+    transform: rotate(270deg); }
+}
+
+@keyframes rotate_preloadpacman_half_down {
+  0% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(90deg);
+  }
+}
+
+@keyframes preloadpacman-balls {
+  75% {
+    opacity: 0.7;
+  }
+  100% {
+    transform: translate(-100px, -6.25px);
+  }
+}
+
+.preloadpacman {
+  position: relative;
+}
+.preloadpacman > div:nth-child(2) {
+  animation: preloadpacman-balls 1s -0.99s infinite linear;
+}
+.preloadpacman > div:nth-child(3) {
+  animation: preloadpacman-balls 1s -0.66s infinite linear;
+}
+.preloadpacman > div:nth-child(4) {
+  animation: preloadpacman-balls 1s -0.33s infinite linear;
+}
+.preloadpacman > div:nth-child(5) {
+  animation: preloadpacman-balls 1s 0s infinite linear;
+}
+.preloadpacman > div:first-of-type {
+  width: 0px;
+  height: 0px;
+  border-right: 25px solid transparent;
+  border-top: 25px solid #fff;
+  border-left: 25px solid #fff;
+  border-bottom: 25px solid #fff;
+  border-radius: 25px;
+  animation: rotate_preloadpacman_half_up 0.5s 0s infinite;
+  position: relative;
+  left: -30px;
+}
+.preloadpacman > div:nth-child(2) {
+  width: 0px;
+  height: 0px;
+  border-right: 25px solid transparent;
+  border-top: 25px solid #fff;
+  border-left: 25px solid #fff;
+  border-bottom: 25px solid #fff;
+  border-radius: 25px;
+  animation: rotate_preloadpacman_half_down 0.5s 0s infinite;
+  margin-top: -50px;
+  position: relative;
+  left: -30px;
+}
+.preloadpacman > div:nth-child(3),
+.preloadpacman > div:nth-child(4),
+.preloadpacman > div:nth-child(5),
+.preloadpacman > div:nth-child(6) {
+  background-color: #fff;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  margin: 2px;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  transform: translate(0, -6.25px);
+  top: 25px;
+  left: 70px;
+}
+</style></head><body><div class="preloadpacman" id="pacman"><div></div><div></div><div></div><div></div><div></div></div><script type="text/javascript">function loadScript(url, callback) {
+  var head = document.head;
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src = url;
+  script.async = true;
+  script.onreadystatechange = callback;
+  script.onload = callback;
+  head.appendChild(script);
+}
+var options = {"loader":"5.4.x","loaderOptions":{"module":{"memUrl":"https://files.crazygames.com/webgl/crazy-pixel-apocalypse-b/Release-gz/crazypielapocalypseunity5.3.5.memgz","codeUrl":"https://files.crazygames.com/webgl/crazy-pixel-apocalypse-b/Release-gz/crazypielapocalypseunity5.3.5.jsgz","dataUrl":"https://files.crazygames.com/webgl/crazy-pixel-apocalypse-b/Release-gz/crazypielapocalypseunity5.3.5.datagz"},"unityLoaderUrl":"https://files.crazygames.com/webgl/crazy-pixel-apocalypse-b/Release-gz/UnityLoader.js"},"author":"Mentolatux","thumbnail":"https://images.crazygames.com/crazypixelapocalypse.png?auto=format,compress&q=75&cs=strip&w=360","gameName":"Crazy Pixel Apocalypse","gameHttps":true,"gameSlug":"crazy-pixel-apocalypse","gameId":"14498","gameStatus":"published","showAdOnExternal":"ALWAYS","showAdOnInternal":"DEFAULT","disableEmbedding":false,"dollarRate":0.9321497517219136,"upvotes":122932,"downvotes":10416,"releaseDate":"2018-01-14","locale":"en_US","controls":{"mouse":{"left":{"en_US":"Shoot"},"right":{"en_US":"Zoom"}},"keyboard":[{"keys":["ARROWS"],"label":{"en_US":"Move"}},{"keys":["WASD"],"label":{"en_US":"Move"}},{"keys":["ENTER"],"label":{"en_US":"Chat"}},{"keys":["1-9"],"label":{"en_US":"Switch weapon"}},{"keys":["SPACE"],"label":{"en_US":"Jump"}},{"keys":["SHIFT"],"label":{"en_US":"Run"}},{"keys":["R"],"label":{"en_US":"Reload"}}]},"videoThumbnail":"https://videos.crazygames.com/crazy-pixel-apocalypse/3/crazy-pixel-apocalypse-180x111.mp4","video":{"original":"https://videos.crazygames.com/crazy-pixel-apocalypse/3/crazy-pixel-apocalypse.mp4","sizes":[{"width":180,"height":111,"location":"https://videos.crazygames.com/crazy-pixel-apocalypse/3/crazy-pixel-apocalypse-180x111.mp4"},{"width":360,"height":222,"location":"https://videos.crazygames.com/crazy-pixel-apocalypse/3/crazy-pixel-apocalypse-360x222.mp4"},{"width":540,"height":333,"location":"https://videos.crazygames.com/crazy-pixel-apocalypse/3/crazy-pixel-apocalypse-540x333.mp4"},{"width":720,"height":444,"location":"https://videos.crazygames.com/crazy-pixel-apocalypse/3/crazy-pixel-apocalypse-720x444.mp4"}]},"sandbox":true,"minTimeBetweenMidrollAdsInMs":180000,"minTimeBetweenRewardedAdsInMs":5000,"noMidrollAdInFirstMinutes":3,"noRewardedAdInFirstMinutes":0,"categoryEnSlug":"shooting","tagsEnSlugs":["apocalypse","pixel","3d","webgl","mentolatux","with-friends","paco","multiplayer","block","first-person-shooter"],"isKids":false,"hasMidroll":false,"hasRewarded":false,"fullscreen":"ADDS_VALUE","orientation":null,"category":"First Person Shooter","categoryLink":"https://www.crazygames.com/t/first-person-shooter","gameLink":"https://www.crazygames.com/game/crazy-pixel-apocalypse","alternativeGames":[{"category":".io","gameSlug":"shellshockersio","gameName":"Shell Shockers","rating":9.2,"thumbnail":"https://images.crazygames.com/shellshockersio/20211202050253/shellshockersio-cover?auto=format,compress&q=75&cs=strip&w=360","videoThumbnail":"https://videos.crazygames.com/shellshockersio/2/shellshockersio-180x111.mp4","gameLink":"https://www.crazygames.com/game/shellshockersio","loader":"iframe"},{"category":"Shooting","gameSlug":"bullet-force-multiplayer","gameName":"Bullet Force","rating":9,"thumbnail":"https://images.crazygames.com/games/bullet-force-multiplayer/cover-1588010858655.png?auto=format,compress&q=75&cs=strip&w=360","videoThumbnail":"https://videos.crazygames.com/bullet-force-multiplayer/8/bullet-force-multiplayer-180x111.mp4","gameLink":"https://www.crazygames.com/game/bullet-force-multiplayer","loader":"5.6.x"},{"category":"Shooting","gameSlug":"forward-assault","gameName":"Forward Assault Remix","rating":8.8,"thumbnail":"https://images.crazygames.com/games/forward-assault/cover-1584185910210.png?auto=format,compress&q=75&cs=strip&w=360","videoThumbnail":"https://videos.crazygames.com/forward-assault/1/forward-assault-thumbnail.mp4","gameLink":"https://www.crazygames.com/game/forward-assault","loader":"5.6.x"},{"category":".io","gameSlug":"merc-zone","gameName":"Merc Zone","rating":8.9,"thumbnail":"https://images.crazygames.com/games/merc-zone/cover-1614702000604.png?auto=format,compress&q=75&cs=strip&w=360","videoThumbnail":"https://videos.crazygames.com/merc-zone/4/merc-zone-180x111.mp4","gameLink":"https://www.crazygames.com/game/merc-zone","loader":"iframe"},{"category":".io","gameSlug":"pixel-warfare","gameName":"Pixel Warfare","rating":9,"thumbnail":"https://images.crazygames.com/pixel-warfare/20220412144537/pixel-warfare-cover?auto=format,compress&q=75&cs=strip&w=360","videoThumbnail":"https://videos.crazygames.com/pixel-warfare/2/pixel-warfare-thumbnail.mp4","gameLink":"https://www.crazygames.com/game/pixel-warfare","loader":"unity2021"},{"category":"Shooting","gameSlug":"buildnow-gg","gameName":"BuildNow GG","rating":9,"thumbnail":"https://images.crazygames.com/buildnow-gg/20210823164305/buildnow-gg-cover?auto=format,compress&q=75&cs=strip&w=360","videoThumbnail":"https://videos.crazygames.com/buildnow-gg/2/buildnow-gg-thumbnail.mp4","gameLink":"https://www.crazygames.com/game/buildnow-gg","loader":"unity2020"},{"category":"Shooting","gameSlug":"metrage","gameName":"Met Rage","rating":9.2,"thumbnail":"https://images.crazygames.com/games/metrage/thumb-1562259732086.png?auto=format,compress&q=75&cs=strip&w=360","videoThumbnail":"https://videos.crazygames.com/metrage/2/metrage-thumbnail.mp4","gameLink":"https://www.crazygames.com/game/metrage","loader":"5.6.x"},{"category":".io","gameSlug":"smash-karts","gameName":"Smash Karts","rating":8.9,"thumbnail":"https://images.crazygames.com/smash-karts/20201119155032/smash-karts-cover?auto=format,compress&q=75&cs=strip&w=360","videoThumbnail":"https://videos.crazygames.com/smash-karts/10/smash-karts-180x111.mp4","gameLink":"https://www.crazygames.com/game/smash-karts","loader":"iframe"},{"category":"Shooting","gameSlug":"time-shooter-2","gameName":"Time Shooter 2","rating":9.1,"thumbnail":"https://images.crazygames.com/time-shooter-2/20220314160843/time-shooter-2-cover?auto=format,compress&q=75&cs=strip&w=360","videoThumbnail":"https://videos.crazygames.com/time-shooter-2/1/time-shooter-2-180x111.mp4","gameLink":"https://www.crazygames.com/game/time-shooter-2","loader":"unity2020"},{"category":".io","gameSlug":"ships-3d","gameName":"Ships 3D","rating":9,"thumbnail":"https://images.crazygames.com/ships-3d/20220510082610/ships-3d-cover?auto=format,compress&q=75&cs=strip&w=360","videoThumbnail":"https://videos.crazygames.com/ships-3d/2/ships-3d-thumbnail.mp4","gameLink":"https://www.crazygames.com/game/ships-3d","loader":"iframe"}],"domainHasNoCMP":false};
+var SDK_READY = false;
+var GF_READY = false;
+var GF_LOAD_CALLED = false;
+loadScript("https://gameframe.crazygames.com/crazygames-gameframe-v1.bundle.js", function() {
+    Crazygames.load(options).then(function() {
+      var pacmanWrapper = document.getElementById('pacman');
+      var pacmanStyles = document.getElementById('pacman-styles');
+
+      if (pacmanWrapper && pacmanStyles) {
+        pacmanWrapper.remove();
+        pacmanStyles.remove();
+      }
+    });
+});</script></body></html>
