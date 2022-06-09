@@ -29,4 +29,36 @@ function crazyGames(url) {
   }
 }
 
-crazyGames(_game.cpa3.name);
+function gaem() {
+  gameCode = document.forms[0].gameCode.value;
+  switch(gameCode) {
+    case 'cpa':
+      crazyGames(_game.cpa.name);
+      break;
+    case 'cpa2':
+      crazyGames(_game.cpa2.name);
+      break;
+    case 'cpa3':
+      crazyGames(_game.cpa3.name);
+      break;
+        case '':
+      break;
+    case '':
+      break;
+        case '':
+      break;
+    case '':
+      break;
+        case '':
+      break;
+    case '':
+      break;
+        case '':
+      break;
+    case '':
+      break;
+    
+  }
+}
+
+//crazyGames(_game.cpa3.name);
