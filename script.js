@@ -27,21 +27,21 @@ function gaem() {
     case 'cpa3':
       crazyGames(game.cpa3.name);
       break;
-        case '':
+    case 'pga':
       break;
-    case '':
+    case 'pga2':
       break;
-        case '':
+    case 'pga3':
       break;
-    case '':
+    case 'pga4':
       break;
-        case '':
+    case 'pga5':
       break;
-    case '':
+    case 'pga6':
       break;
-        case '':
+    case 'pga7':
       break;
-    case '':
+    case 'uno':
       break;
     default:
       crazyGames(game.cpa.name)
