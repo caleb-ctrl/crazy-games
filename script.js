@@ -16,7 +16,7 @@ function crazyGames(url) {
 }
 
 function gaem() {
-  gameCode = document.forms[0].gameCode.value;
+  gameCode = urlParams.get('gameCode')
   switch(gameCode) {
     case 'cpa':
       crazyGames(game.cpa.name);
