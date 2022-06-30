@@ -16,7 +16,9 @@ function crazyGames(url) {
 }
 
 function gaem() {
-  gameCode = urlParams.get('gameCode')
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
+  const gameCode = urlParams.get('gameCode');
   switch(gameCode) {
     case 'cpa':
       crazyGames(game.cpa.name);
@@ -47,5 +49,3 @@ function gaem() {
       crazyGames(game.cpa.name)
   }
 }
-
-//crazyGames(game.cpa3.name);
