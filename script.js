@@ -1,9 +1,9 @@
-const game = require('./games.json')
+const game = require('./games.json');
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
 
-function iframe(_in) {
-  const page = document.getElementByid("game-div");
-  page.innerHTML += _in;
-}
+
+function iframe(_in) { document.getElementByid("game-div").innerHTML += _in; }
 
 function crazyGames(url) {
   if (url == game.cpa.name) {
@@ -11,13 +11,11 @@ function crazyGames(url) {
   } else if (url == game.cpa3.name) {
     iframe(game.cpa3.html);
   } else {
-    print("error " + url);
+    console.error(url);
   }
 }
 
 function gaem() {
-  const queryString = window.location.search;
-  const urlParams = new URLSearchParams(queryString);
   const gameCode = urlParams.get('gameCode');
   switch(gameCode) {
     case 'cpa':
@@ -44,6 +42,7 @@ function gaem() {
     case 'pga7':
       break;
     case 'uno':
+      crazyGames(game.uno.name)
       break;
     default:
       crazyGames(game.cpa.name)
